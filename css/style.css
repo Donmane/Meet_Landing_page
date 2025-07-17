@@ -195,6 +195,22 @@ img{
     p{
         font-size: 1.1rem;
     }
+    .pictures {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "one"
+      "three"
+      "four"
+      "two";
+    row-gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .one { grid-area: one; }
+  .two { grid-area: two; }
+  .three { grid-area: three; }
+  .four { grid-area: four; }
 }
 @media (min-width:600px) and (max-width:1024px) {
     h1{
@@ -203,6 +219,22 @@ img{
     p{
         font-size: 1.2rem;
     }
+    .pictures {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "one"
+      "three"
+      "four"
+      "two";
+    row-gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .one { grid-area: one; }
+  .two { grid-area: two; }
+  .three { grid-area: three; }
+  .four { grid-area: four; }
 }
 @media (min-width:1025px) {
     h1{
